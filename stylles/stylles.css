@@ -1,0 +1,6 @@
+.text
+{
+    color: blue;
+    padding-left: 100px;
+    word-break: 50px;
+}
