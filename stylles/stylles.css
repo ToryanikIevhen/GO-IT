@@ -1,12 +1,12 @@
 .text
 {
     color: blue;
-    padding-left: 100px;
+    padding-left: 300px;
     word-break: 50px;
 }
 .text_siqr
 {
     color: aqua;
-    padding: 150px;
+    padding: 300px;
     word-wrap: normal;
 }
