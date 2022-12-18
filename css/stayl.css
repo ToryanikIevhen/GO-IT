@@ -197,8 +197,8 @@ margin-left:700px;
     display: flex;
     align-items: center;
     background-color:#B19595;
-    max-height: 106px;
-    max-width: 1560px;
+    min-height: 106px;
+    min-width: 1560px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -248,10 +248,13 @@ color: #F8E8E8;
     display: flex;
     background-color: #B19595;
     background-image:url(../img/j3.jpg);
+    background-repeat: no-repeat;
     min-height: 1100px;
-    max-width: 1600px;
+    min-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
 .icon-hiro
@@ -301,23 +304,25 @@ color: #F8E8E8;
 
     width: 185px;
     min-height: 34px;
+    border-radius: 10px;
 }
 .form-data
 {
     position: absolute;
     left: 104%;
     top: 20%;
-    padding: 2px 28px;
+    padding: 2px 29px;
     min-height: 30px;
     font-family: 'Noticia Text';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
+    border-radius: 10px;
 }
 .select-r
 {
-    padding: 4px 1px;
+    padding: 6px 4px;
     position: absolute;
     left: 263%;
     top:20%;
@@ -326,6 +331,7 @@ color: #F8E8E8;
     font-weight: 400;
     font-size: 18px;
     line-height: 1;
+    border-radius: 10px;
 }
 .email
 {
@@ -334,6 +340,7 @@ color: #F8E8E8;
     top: 20%;
     min-height: 30px;
     width: 184px;
+    border-radius: 10px;
 }
 .password
 {
@@ -347,6 +354,7 @@ color: #F8E8E8;
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
+    border-radius: 10px;
 }
 .lab
 {
@@ -381,8 +389,129 @@ color: #F8E8E8;
 {
     background-color: rgb(223, 201, 10);
 }
-/*---------------------------styil-dokumet-----------*/
+/*---------------------------peyg1-----------*/
+.icon-masag
+{
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    fill:#ffffff  ;
+}
+.icon-wine
+{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    fill:#ffffff  ;
+}
+.icon-women
+{
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    fill:#ffffff  ;
+}
+.list-peyg1
+{
+    position: relative;
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+.h-peyg
+{
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.list-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100px;
+    max-height: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgba(211, 178, 178, 0.5);
+    
+
+}
+.list-man
+{
+    
+    display: flex;
+    
+}
+.link-man
+{
+    position: absolute;
+    left: 30%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(211, 178, 178, 0.5) ;
+}
+.link:hover,
+.link:focus
+{
+    background-color:  rgb(223, 201, 10);
+}
+
+.list-woman
+{
+    display: flex;
+}
+.icon-man
+{
+    position: absolute;
+    top: 20%;
+    right:20%;
+    fill: #ffffff;
+    
+}
+.link-woman
+{
+    position: absolute;
+    left: 55%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(211, 178, 178, 0.5) ;
+}
+.icon-woman
+{
+    position: absolute;
+    top: 20%;
+    right:20%;
+    fill: #ffffff;
+}
+.icon-18icon
+{
+    position: absolute;
+    fill:#d34141 ;
+    top: -12%;
+    left: 160%;
+
+}
 
 
-
-
+.ceys-peg1
+{
+    position: relative;
+    display: flex;
+}
+.icon-peyg1
+{
+    position: absolute;
+    right: 50%;
+    top:10%;
+    transform: translate(68% ,-2%);
+    fill: rgba(194, 214, 72, 0.45);
+   
+}
