@@ -306,7 +306,7 @@ color: #F8E8E8;
 .email
 {
     position: absolute;
-    left: 274%;
+    left: 235%;
     top: 20%;
     min-height: 30px;
     width: 184px;
@@ -315,7 +315,7 @@ color: #F8E8E8;
 .password
 {
     position: absolute;
-    left: 171%;
+    left: 146%;
     top: 20%;
     min-height: 30px;
     width: 184px;
@@ -421,9 +421,10 @@ color: #F8E8E8;
 .link-man
 {
     position: absolute;
+    top: 5%;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: rgba(211, 178, 178, 0.5) ;
 }
 .link:hover,
@@ -440,24 +441,25 @@ color: #F8E8E8;
 {
     position: absolute;
     top: 20%;
-    right:20%;
+    right:25%;
     fill: #ffffff;
     
 }
 .link-woman
 {
     position: absolute;
-    left: 130%;
+    top: 5%;
+    left: 100%;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: rgba(211, 178, 178, 0.5) ;
 }
 .icon-woman
 {
     position: absolute;
     top: 20%;
-    right:20%;
+    right:25%;
     fill: #ffffff;
 }
 .icon-18icon
@@ -482,7 +484,7 @@ color: #F8E8E8;
     right: 50%;
     left: 40%;
     top: 10%;
-    transform: translate(26% ,4%);
+    transform: translate(5% ,4%);
     fill: rgba(194, 214, 72, 0.45);
    
 }
